@@ -8,13 +8,13 @@ const Layout = () => {
 			<nav class="navigation">
 				<ul>
 					<li>
-						<Link to="/">Home</Link>
+						<Link to="/">HOME</Link>
 					</li>
 					<li>
-						<Link to="/blogs">Blogs</Link>
+						<Link to="/blogs">JAVASCRIPT</Link>
 					</li>
 					<li>
-						<Link to="/contact">Contact</Link>
+						<Link to="/contact">REACT</Link>
 					</li>
 				</ul>
 			</nav>
