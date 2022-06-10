@@ -1,0 +1,45 @@
+/* Layout */
+.navigation {
+   font-size: 20px;
+    
+}
+
+ul {
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+li {
+   
+   display: inline;
+   margin: 50px;
+}
+
+body {
+    background-color: #a6a4a4;
+}
+
+A {
+    text-decoration: none;
+    color: white;
+}
+
+/* Home */
+.homehero {
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    background: rgb(179,179,185);
+background: linear-gradient(90deg, rgba(179,179,185,1) 0%, rgba(38,37,37,1) 58%, rgba(60,60,60,1) 100%);
+}
+
+body {
+    margin: 0;
+}
+
+.placeholder {
+    width:200px;
+    height: auto;
+}
