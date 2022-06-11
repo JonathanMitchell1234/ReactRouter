@@ -10,8 +10,12 @@ const Home = () => {
 	return (
 		<>
 			<div class="homehero">
-				<h1><span>Web Development</span></h1>
-				<button class="btn">From Wikipedia</button>
+				<h1>
+					<span>Web Development</span>
+				</h1>
+				<a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" rel="noreferrer">
+					<button class="btn">From Wikipedia</button>
+				</a>
 			</div>
 			<div class="devinfo">
 				<p>

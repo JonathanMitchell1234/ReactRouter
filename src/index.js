@@ -6,14 +6,13 @@ import Blogs from "./Pages/Blogs";
 import Contact from "./Pages/Contact";
 import NoPage from "./Pages/NoPage";
 import "./Pages/Layout.css";
-import { Transition } from "react-transition-group";
 
 export default function App() {
 	return (
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Layout />}>
-					<Route index element={<Home />}  />
+					<Route index element={<Home />} />
 					<Route path="blogs" element={<Blogs />} />
 					<Route path="contact" element={<Contact />} />
 					<Route path="*" element={<NoPage />} />
