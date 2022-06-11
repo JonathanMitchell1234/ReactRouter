@@ -1,24 +1,31 @@
-import { Outlet, Link } from "react-router-dom";
-import "./Layout.css";
+import { Outlet, Link, NavLink } from "react-router-dom";
+import "./Layout.css"
+
 
 const Layout = () => {
 	return (
 		<>
 			{/* <div class="nav"> */}
-			
-				<nav class="navigation">
-					<ul>
-						<li>
-							<Link to="/">HOME</Link>
-						</li>
-						<li>
-							<Link to="/blogs">JAVASCRIPT</Link>
-						</li>
-						<li>
-							<Link to="/contact">REACT</Link>
-						</li>
-					</ul>
-				</nav>
+
+			<nav class="navigation">
+				<ul>
+					<li>
+						<NavLink to="/" activeClassName="active">
+							HOME
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="/blogs" activeClassName="active">
+							JAVASCRIPT
+						</NavLink>
+					</li>
+					<li>
+						<NavLink to="/contact" activeClassName="active">
+							REACT
+						</NavLink>
+					</li>
+				</ul>
+			</nav>
 			{/* </div> */}
 			<Outlet />
 		</>
