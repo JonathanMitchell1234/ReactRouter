@@ -11,32 +11,42 @@
 
 }
 
-.nav {
+/* .nav {
 	text-align: center;
     
-}
+} */
  
 
+
+
 ul {
-text-align: center;   
+margin: auto;
+text-align: center;
+list-style-type: none;
+padding: 0;
 
 }
 
 li {
-	display: inline;
+	display: inline-block;
 	padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
     
     
 }
 
 body {
-	background-color: #a6a4a4;
-	width: 100vw;
-	height: 100vh;
+	background-color: #cbc9c9;
+	
 	margin: 0;
 	font-family: "Source Sans Pro", sans-serif;
 	/* box-sizing: border-box; */
-	overflow: hidden;
+	
 }
 
 A {
@@ -80,6 +90,23 @@ h1 {
     color: white;
 }
 
+.devinfo {
+    width: 100%;
+}
+
+p {
+    padding-top: 75px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
 
 
 
