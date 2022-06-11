@@ -1,81 +1,89 @@
 /* Layout */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 
-
-.navigation {
-   font-size: 20px;
-   display: flex;
-   justify-content: center;
-   
-    
+* {
+    box-sizing: border-box;
 }
 
-ul {
-    text-align: center;
-   justify-content: center;
-   align-items: center;
+.navigation {
+	font-size: 3vw;
+	
+
+}
+
+.nav {
+	text-align: center;
     
+}
+ 
+
+ul {
+text-align: center;   
+
 }
 
 li {
-   
-   display: inline;
-   margin: 50px;
+	display: inline;
+	padding: 20px;
+    
+    
 }
 
 body {
-    background-color: #a6a4a4;
+	background-color: #a6a4a4;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	font-family: "Source Sans Pro", sans-serif;
+	/* box-sizing: border-box; */
+	overflow: hidden;
 }
 
 A {
-    text-decoration: none;
-    color: white;
+	text-decoration: none;
+	color: white;
 }
 
 /* Home */
 .homehero {
-    border-radius: 15px;
-    height: 50vh;
-    width: 100vw;
-    text-align: center;
-    background: rgb(112, 112, 113);
-    background: linear-gradient(90deg, rgba(179,179,185,1) 0%, rgb(88, 87, 87) 58%, rgba(60,60,60,1) 100%);
-}
-
-body {
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.logo {
-    width:10%;
-    height: auto;
-    position: relative;
-    top: 25%;
-}
-
-.web {
-    position: relative;
-    text-align: center;
-    justify-content: center;
+	border-radius: 15px;
+	height: 70vh;
+    width: 100%;
+    display: flex;
+	background: rgb(112, 112, 113);
+	background: linear-gradient(90deg, rgb(107, 37, 212) 0%, rgb(133, 108, 240) 58%, rgb(215, 170, 249) 100%);
     align-items: center;
-    top:20%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    font-size: 5vw;
     text-transform: uppercase;
 }
 
 .btn {
-    border-radius: 15px;
-    background-color: #f692922b;
+    border: 4px solid rgb(69, 68, 68);
+    background-color: rgba(251, 249, 249, 0);
+    width: 150px;
+    height: 50px;
     cursor: pointer;
-    border: 3px solid #1b0202;
-    position: relative;
-    top:20%;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 5px;
+    color: white;
+    
 }
 
 .btn:hover {
-    transform: scale(1.1);
-    background-color: #a6a4a4;
-    
+    background-color: rgb(69, 68, 68);
+    color: white;
 }
+
+
+
+
+
+
+
+

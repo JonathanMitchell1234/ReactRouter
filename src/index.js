@@ -6,6 +6,7 @@ import Blogs from "./Pages/Blogs";
 import Contact from "./Pages/Contact";
 import NoPage from "./Pages/NoPage";
 import "./Pages/Layout.css";
+import { Transition } from "react-transition-group";
 
 export default function App() {
 	return (
