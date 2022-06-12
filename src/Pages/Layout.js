@@ -15,12 +15,12 @@ const Layout = () => {
 						</NavLink>
 					</li>
 					<li>
-						<NavLink to="/blogs" activeClassName="active">
+						<NavLink to="/javascript" activeClassName="active">
 							JAVASCRIPT
 						</NavLink>
 					</li>
 					<li>
-						<NavLink to="/contact" activeClassName="active">
+						<NavLink to="/react2" activeClassName="active">
 							REACT
 						</NavLink>
 					</li>
