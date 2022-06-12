@@ -3,21 +3,24 @@ import macclassic from "./Images/macclassic.png";
 import coding from "./Images/code-icon-png-0.jpg";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import React from "react";
-import Web from "./webdev";
+import Fade from "react-reveal/Fade";
 
 
 const Home = () => {
 	return (
 		<>
 			<div class="homehero">
-				<h1>
-					<span>Web Development</span>
-				</h1>
+				<Fade bottom>
+					<h1>Web Development</h1>
+				</Fade>
+				<Fade bottom>
 				<a href="https://en.wikipedia.org/wiki/Web_development" target="_blank" rel="noreferrer">
 					<button class="btn">From Wikipedia</button>
 				</a>
+				</Fade>
 			</div>
 			<div class="devinfo">
+				<Fade bottom>
 				<p>
 					Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network)
 					Web development can range from developing a simple single static page of plain text to complex web applications, electronic
@@ -36,7 +39,9 @@ const Home = () => {
 					developer. Front-end developers are responsible for behavior and visuals that run in the user browser, while back-end developers
 					deal with the servers. Since the commercialization of the Web with Tim Berners-Lee developing the World Wide Web at CERN, the
 					industry has boomed and has become one of the most used technologies ever.
+					
 				</p>
+				</Fade>
 			</div>
 		</>
 	);

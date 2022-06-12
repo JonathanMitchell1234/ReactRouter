@@ -1,12 +1,19 @@
+import Fade from "react-reveal/Fade";
+
 const Blogs = () => {
 	return (
 		<>
 			<div class="jshero">
+				<Fade bottom>
 				<h1>JAVASCRIPT</h1>
+				</Fade>
+				<Fade bottom>
 				<a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" rel="noreferrer">
 					<button class="btn">From Wikipedia</button>
 				</a>
+				</Fade>
 			</div>
+			<Fade bottom>
 			<div class="devinfo">
 				<p>
 					JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside
@@ -24,6 +31,7 @@ const Blogs = () => {
 					and respective standard libraries, the two languages are distinct and differ greatly in design.
 				</p>
 			</div>
+			</Fade>
 		</>
 	);
 };
