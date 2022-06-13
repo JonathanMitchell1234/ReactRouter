@@ -59,7 +59,7 @@ A {
     width: 100%;
     display: flex;
 	background: rgb(112, 112, 113);
-	background: linear-gradient(90deg, rgb(107, 37, 212) 0%, rgb(133, 108, 240) 58%, rgb(215, 170, 249) 100%);
+	background: linear-gradient(90deg, rgb(107, 37, 212) 0%, rgb(133, 108, 240) 58%, rgb(74, 4, 128) 100%);
     align-items: center;
     justify-content: center;
     flex-direction: column;
